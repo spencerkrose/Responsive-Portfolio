@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-Assignment 2 for the second homework
+# Basic-Portfolio
+My first homework assignment for Northwestern

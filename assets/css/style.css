@@ -1,0 +1,168 @@
+li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbuttons1 {
+    float: right;
+    padding: 16px;
+}
+#navbuttons2 {
+    float: right;
+    padding: 16px;
+}
+#navbuttons3 {
+    float: right;
+    padding: 16px;
+}
+#header {
+    font-size: 30px;
+    background-color: forestgreen;
+    color: white;
+    padding: 16px;
+}
+
+.br {
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    margin: 16px 0px;
+    width: 100%;
+}
+
+.box1 {
+    margin: 5%;
+    padding: 3%;
+    border: solid;
+    border-color: grey;
+    box-align: center;
+}
+
+.headshot {
+    width: 150px;
+    height: 220px;
+    padding: 5px;
+    border: 5px;
+    display: inline;
+    float: left;
+}
+
+.bio {
+    display: inline;
+    margin: 8px;
+    padding: 8px;
+}
+
+.footer {
+    text-align: center;
+    padding: 5px;
+    background-color: grey;
+    color: whitesmoke;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+   margin:50px;
+}
+.gallerybox {
+    box-sizing: border-box;
+    position: fixed;
+    background: #eee;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.gallerybox2 {
+    box-sizing: border-box;
+    position: fixed;
+    background: #eee;
+    width: 200px;
+    height: 200px;
+   float: left;
+}
+
+.gallerybox3 {
+    box-sizing: border-box;
+    position: fixed;
+    background: #eee;
+    width: 200px;
+    height: 200px;
+    float: right
+}
+
+.gallerybox4 {
+    box-sizing: border-box;
+    position: fixed;
+    background: #eee;
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+.text-block {
+    box-sizing: border-box;
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 640px) {
+    #header {
+        position: static;
+        display: block;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    #navbuttons1 {
+        display: block;
+        position: static;
+        line-height: 16px;
+        width: 100%;
+        text-align: center;
+        background-color: lightgreen;
+        border: dotted;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+    #navbuttons2 {
+        display: block;
+        position: static;
+        line-height: 16px;
+        width: 100%;
+        text-align: center;
+        background-color: lightgreen;
+        border: dotted;
+        padding: 8px;
+        box-sizing: border-box;
+        
+    }
+    #navbuttons3 {
+        display: block;
+        position: static;
+        line-height: 16px;
+        width: 100%;
+        text-align: center;
+        background-color: lightgreen;
+        border: dotted;
+        padding: 8px;
+        box-sizing: border-box;
+        
+    }
+    ul {
+        width:100%;
+    }
+    .br{
+        display: none;
+    }
+}
